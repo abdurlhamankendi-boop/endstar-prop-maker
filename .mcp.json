@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "endstar-unity": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "--no-project",
+        "--with",
+        "mcp>=1.10,<2",
+        "python",
+        "tools/endstar_unity_mcp.py"
+      ],
+      "env": {
+        "ENDSTAR_SDK_PROJECT": "C:\\Endstar-SDK",
+        "UNITY_EXE": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f2\\Editor\\Unity.exe",
+        "BLENDER_EXE": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe"
+      }
+    }
+  }
+}

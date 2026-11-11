@@ -1,0 +1,16 @@
+# Made while the tools run: local paths and your own upload history stay on your PC
+__pycache__/
+*.pyc
+unity/inbox/
+unity/outbox/
+unity/cells/
+unity/editor.log
+art/export/
+art/preview/
+tools/prop_uploader/work/
+tools/prop_uploader/logs/
+tools/prop_uploader/history.json
+tools/prop_uploader/history.json.damaged
+tools/prop_uploader/uploads.json
+tools/prop_uploader/*.log
+*.blend1
